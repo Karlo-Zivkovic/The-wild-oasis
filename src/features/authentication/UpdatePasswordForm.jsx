@@ -15,7 +15,7 @@ function UpdatePasswordForm() {
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
-      className="bg-white py-4 divide-y px-8 flex flex-col text-sm font-medium drop-shadow"
+      className="bg-white py-4 divide-y px-8 flex flex-col text-sm font-medium drop-shadow dark:text-gray-100 dark:bg-gray-800 dark:divide-gray-900 dark:border-gray-700 dark:border "
     >
       <div className="flex h-16 items-center ">
         <label htmlFor="password" className="w-60">
@@ -32,7 +32,7 @@ function UpdatePasswordForm() {
             },
           })}
           id="password"
-          className="font-normal border w-[20rem] h-9 rounded-md border-neutral-300 pl-2  outline-none focus:border-indigo-600 focus:border-2 disabled:opacity-60"
+          className="font-normal border w-[20rem] h-9 rounded-md border-neutral-300 pl-2  outline-none focus:border-indigo-600 focus:border-2 disabled:opacity-60 dark:bg-gray-800 dark:border-gray-600"
         />
         {errors && (
           <p className="pl-6 text-xs text-red-500">
@@ -54,7 +54,7 @@ function UpdatePasswordForm() {
           })}
           disabled={isLoading}
           id="passwordConfirm"
-          className="font-normal border w-[20rem] h-9 rounded-md border-neutral-300 pl-2  outline-none focus:border-indigo-600 focus:border-2 disabled:opacity-60"
+          className="font-normal border w-[20rem] h-9 rounded-md border-neutral-300 pl-2  outline-none focus:border-indigo-600 focus:border-2 disabled:opacity-60 dark:bg-gray-800 dark:border-gray-600"
         />
         {errors && (
           <p className="pl-6 text-xs text-red-500">
@@ -67,7 +67,7 @@ function UpdatePasswordForm() {
         <button
           disabled={isLoading}
           type="reset"
-          className="py-3.5 px-4 border hover:bg-gray-100 transition rounded"
+          className="py-3.5 px-4 border hover:bg-gray-100 transition rounded hover:dark:bg-gray-900 dark:border-gray-700"
         >
           Cancel
         </button>
