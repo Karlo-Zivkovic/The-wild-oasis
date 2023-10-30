@@ -3,6 +3,7 @@ import {
   RouterProvider,
   createBrowserRouter,
 } from "react-router-dom";
+import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import Dashboard from "./pages/Dashboard";
 import Root from "./ui/Root";
 import Bookings from "./pages/Bookings";
@@ -81,6 +82,7 @@ function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <RouterProvider router={router} />
+      <ReactQueryDevtools />
       <Toaster
         position="top-center"
         reverseOrder={false}

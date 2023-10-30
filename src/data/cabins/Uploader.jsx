@@ -14,32 +14,32 @@ import { guests } from "./data-guests";
 //   breakfastPrice: 15,
 // };
 
-async function deleteGuests() {
+export async function deleteGuests() {
   const { error } = await supabase.from("guests").delete().gt("id", 0);
   if (error) console.log(error.message);
 }
 
-async function deleteCabins() {
+export async function deleteCabins() {
   const { error } = await supabase.from("cabins").delete().gt("id", 0);
   if (error) console.log(error.message);
 }
 
-async function deleteBookings() {
+export async function deleteBookings() {
   const { error } = await supabase.from("bookings").delete().gt("id", 0);
   if (error) console.log(error.message);
 }
 
-async function createGuests() {
+export async function createGuests() {
   const { error } = await supabase.from("guests").insert(guests);
   if (error) console.log(error.message);
 }
 
-async function createCabins() {
+export async function createCabins() {
   const { error } = await supabase.from("cabins").insert(cabins);
   if (error) console.log(error.message);
 }
 
-async function createBookings() {
+export async function createBookings() {
   const { data: guestsIds } = await supabase
     .from("guests")
     .select("id")
@@ -91,7 +91,7 @@ async function createBookings() {
     };
   });
 
-  console.log(finalBookings);
+  // console.log(finalBookings);
 
   const { error } = await supabase.from("bookings").insert(finalBookings);
   if (error) console.log(error.message);
