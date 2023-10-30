@@ -3,7 +3,7 @@ Biggest project yet. Inner managment app. Using Supabase for authentication and 
 
 <br />
 
-<h2>Languages and Utilities Used</h2>
+<h2>Libraries and Utilities Used</h2>
 
 - <b>React</b>
 - <b>Supabase</b>
@@ -21,3 +21,4 @@ Biggest project yet. Inner managment app. Using Supabase for authentication and 
 
 - <b>npm install</b>
 - <b>npm run dev</b>
+- <b>email:bamere1492@gekme.com pass:12345679</b>
