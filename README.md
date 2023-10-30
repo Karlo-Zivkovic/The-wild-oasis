@@ -1,5 +1,5 @@
 <h1>Description</h1>
-Biggest project yet. Inner managment app. Using Supabase for authentication and data. A lot of different features.
+Inner managment app. Using Supabase for authentication and data. A lot of different features.
 
 <br />
 
@@ -22,3 +22,7 @@ Biggest project yet. Inner managment app. Using Supabase for authentication and 
 - <b>npm install</b>
 - <b>npm run dev</b>
 - <b>email:bamere1492@gekme.com pass:12345679</b>
+
+<h2>Project screenshot</h2>
+
+<img src="https://i.imgur.com/8JDngnp.png" height="80%" width="80%" alt="project dashboard"/>
