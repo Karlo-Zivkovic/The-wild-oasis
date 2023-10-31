@@ -13,7 +13,7 @@ function Account() {
 
       <UpdateUserDataForm />
       <p className="dark:text-gray-100 text-xl font-medium mt-10 mb-4">
-        Update user data
+        Update password
       </p>
       <UpdatePasswordForm />
     </>
