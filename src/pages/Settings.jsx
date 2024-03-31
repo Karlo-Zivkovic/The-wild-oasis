@@ -1,4 +1,4 @@
-import UpdateSettingsForm from "../features/settings/updateSettingsForm";
+import UpdateSettingsForm from "../features/settings/UpdateSettingsForm";
 
 function Settings() {
   return (
