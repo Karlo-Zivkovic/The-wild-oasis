@@ -17,11 +17,12 @@ Inner managment app. Using Supabase for authentication and data. A lot of differ
 - <b>React icons</b>
 - <b>Recharts</b>
 
-<h2>HOW TO START:</h2>
+<h2>DEPLOYED:</h2>
 
-- <b>npm install</b>
-- <b>npm run dev</b>
-- <b>email:bamere1492@gekme.com pass:12345679</b>
+- <b>https://the-wild-oasis-org.netlify.app</b> 
+- <b>email: bamere1492@gekme.com</b>
+- <b>pass: 12345679</b>
+
 
 <h2>Project screenshot</h2>
 
