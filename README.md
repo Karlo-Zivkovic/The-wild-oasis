@@ -19,7 +19,7 @@ Inner managment app. Using Supabase for authentication and data. A lot of differ
 
 <h2>DEPLOYED:</h2>
 
-- <b>https://snapgram-showcase.netlify.app</b> 
+- <b>https://the-wild-oasis-org.netlify.app</b> 
 - <b>email: bamere1492@gekme.com</b>
 - <b>pass: 12345679</b>
 
